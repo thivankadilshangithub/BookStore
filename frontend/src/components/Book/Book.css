@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Montserrat:wght@600&family=PT+Sans&family=Roboto:wght@400;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif !important;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;  
+}
+
+ul li{
+    padding: 20px;
+    width: 300px;
+    max-width: 300px;
+    max-height: 400px;   
+}
+
+.book{
+    list-style: none;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 10px #ccc;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+ul li:hover{
+    transform: scale(1.05);
+    transition: 2s;
+}
+
+.card > img {
+    width: 100%;
+    height: 50%;
+}
+
+.card article {
+    padding: 5px;
+}
+
+.card h3{
+    padding: 4px;
+}
+
+.card p{
+    padding: 3px;
+}
+
+/* Update Page */
+.updateheader{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #337eca;
+    padding-top: 5px;
+}
+
+/* Home Page */
+.Imagebody{
+   background-image: url("https://wallpaperaccess.com/full/124529.jpg"); 
+    background-size:cover; 
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-top: -65px;
+}
+
+.Imagebody1{
+    background: rgb(246,242,242);
+    background: radial-gradient(circle, rgba(246,242,242,1) 0%, rgba(182,204,230,1) 100%);
+}
+
+.Imageabout{
+    background-image: url("http://www.senikmaholdings.com/images/banners/banner-contact-us.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    margin-top: -66px;
+}
+
+.heade{
+    font-size: 40px;
+    padding-left: 600px;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: #337eca;
+}
